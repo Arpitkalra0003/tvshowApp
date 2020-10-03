@@ -1,0 +1,53 @@
+.landing
+{
+margin-top: 30px;
+
+}
+
+.searchbar
+{
+    width: 250px;
+    border: 1px solid lightgrey;
+    height: 30px;
+    border-radius: 3px;
+    padding-left: 10px;
+    margin-left: 30px;
+}
+
+.list-name
+{
+    /* background-color: lightskyblue; */
+    list-style: none;
+    width: 250px;
+    display: inline-flex;
+    border: 1px solid black;
+   
+}
+.list-name > p 
+{
+    padding-left: 10px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 200px;
+}
+.list-name > img{
+    position: absolute;
+    padding: 20px;
+    right: 0;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+ul
+{
+    width: 260px;
+    height: 600px;
+    overflow-y: auto;
+    position: relative;
+    left: 0;
+}
+.series
+{
+    display: flex;
+}
